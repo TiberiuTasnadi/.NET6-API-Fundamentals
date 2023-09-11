@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiFundamentals.API</name>
+    </assembly>
+    <members>
+        <member name="M:ApiFundamentals.API.Controllers.CitiesController.GetCity(System.Int32,System.Boolean)">
+            <summary>
+            Get a city by id
+            </summary>
+            <param name="id">id of the city</param>
+            <param name="includePointsOfInterest">point of interest</param>
+            <returns>An action result</returns>
+            <reponse code="200">Returns request city</reponse>
+        </member>
+        <member name="T:ApiFundamentals.API.Migrations.CityInfoDBInitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiFundamentals.API.Migrations.CityInfoDBInitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiFundamentals.API.Migrations.CityInfoDBInitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiFundamentals.API.Migrations.CityInfoDBInitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ApiFundamentals.API.Migrations.AddPointOfInterestDescription">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiFundamentals.API.Migrations.AddPointOfInterestDescription.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiFundamentals.API.Migrations.AddPointOfInterestDescription.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiFundamentals.API.Migrations.AddPointOfInterestDescription.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ApiFundamentals.API.Migrations.DataSeed">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiFundamentals.API.Migrations.DataSeed.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiFundamentals.API.Migrations.DataSeed.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ApiFundamentals.API.Migrations.DataSeed.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ApiFundamentals.API.Model.CityDto">
+            <summary>
+            Dto
+            </summary>
+        </member>
+        <member name="P:ApiFundamentals.API.Model.CityDto.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:ApiFundamentals.API.Model.CityDto.Name">
+            <summary>
+            name
+            </summary>
+        </member>
+        <member name="P:ApiFundamentals.API.Model.CityDto.Description">
+            <summary>
+            decription
+            </summary>
+        </member>
+        <member name="P:ApiFundamentals.API.Model.CityDto.NumberOfPointsOfInterest">
+            <summary>
+            number of points of interest
+            </summary>
+        </member>
+        <member name="P:ApiFundamentals.API.Model.CityDto.PointOfInterest">
+            <summary>
+            list of points of interest
+            </summary>
+        </member>
+    </members>
+</doc>
